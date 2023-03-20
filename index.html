@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KFC Deals and Offers</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./IMG/favicon1.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div
+      class="placeOrder PlaceOrderClass fixed left-1/2 -translate-x-2/4 top-24 w-3/4 mx-auto z-20 rounded-3xl sm:px-10 sm:py-10 px-5 py-5 bg-white shadow-2xl"
+    >
+      <div class="sm:text-center text-start sm:text-2xl text-xl relative mb-5">
+        START YOUR ORDER
+      </div>
+      <button
+        class="closePlaceOrder absolute sm:top-10 sm:right-10 top-5 right-5 text-2xl"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <hr class="border-black" />
+      <p class="text-center md:text-4xl sm:text-3xl text-2xl xl:m-5 m-3">
+        HOW WOULD YOU LIKE TO RECEIVE YOUR ORDER?
+      </p>
+      <div
+        class="md:w-1/4 w-1/2 h-1/2 sm:py-5 py-3 xl:mt-10 mt-4 text-center mx-auto"
+      >
+        <button
+          class="border border-black w-full py-2 rounded-3xl hover:bg-gray-200 sm:mb-10 mb-8"
+        >
+          Delivery
+        </button>
+        <button
+          class="border border-black w-full py-2 rounded-3xl hover:bg-gray-200 sm:mb-10 mb-8"
+        >
+          Pick up
+        </button>
+        <button
+          class="border border-black w-full py-2 rounded-3xl hover:bg-gray-200"
+        >
+          Dine line
+        </button>
+      </div>
+    </div>
+    <div
+      class="placeOrder viewDetails fixed left-1/2 -translate-x-2/4 top-24 w-3/4 mx-auto z-20 rounded-3xl sm:px-10 sm:py-10 px-5 py-5 bg-white shadow-2xl"
+    >
+      <div class="text-start sm:text-2xl text-xl relative mb-5">
+        OFFERS & DEALS
+      </div>
+      <button
+        class="closeDetails absolute sm:top-10 sm:right-10 top-5 right-5 text-2xl"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <hr class="border-black" />
+      <p class="text-center sm:text-3xl text-xl xl:m-5 m-3">
+        1 PC FREE CHICKEN ZINGER ON A CART VALUE OF 499 OR ABOVE ON FIRST ORDER.
+        ONLY FOR REGISTERED USERS.
+      </p>
+      <div class="text-center">
+        <span class=""> Valid to 31/12/30</span>
+        <p>
+          1 Pc free Chicken Zinger on a cart value of 499 or above on first
+          order. Only for registered users.
+        </p>
+      </div>
+      <div
+        class="md:w-1/4 w-1/2 h-1/2 sm:py-5 py-3 xl:mt-10 mt-4 text-center mx-auto"
+      >
+        <button
+          class="border border-black w-full py-2 rounded-3xl hover:bg-gray-200 sm:mb-10 mb-8"
+        >
+          Redeem
+        </button>
+      </div>
+    </div>
+    <!-- Menu  -->
+    <div
+      class="menu hide fixed overflow-scroll top-0 w-full h-full mx-auto z-20 rounded-3xl px-5 py-2 bg-white shadow-2xl"
+    >
+      <div class="flex justify-between items-center">
+        <button class="text-2xl close__Menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="w-16">
+          <div class="flex justify-center gap-3">
+            <div class="bg-red-500 w-2 h-6"></div>
+            <div class="bg-red-500 w-2 h-6"></div>
+            <div class="bg-red-500 w-2 h-6"></div>
+          </div>
+        </div>
+        <div class="my-2">
+          <img class="w-8" src="./IMG/bucketlogo.png" alt="Bucket" />
+        </div>
+      </div>
+
+      <hr class="border-black" />
+      <p class="text-center text-3xl m-3">LET'S GET COOKIN'</p>
+      <div class="text-center">
+        <span class=""
+          ><a href="./signIn.html"
+            ><i class="fa-regular fa-circle-user"></i> &nbsp; Sign in / Sign up
+            <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </span>
+      </div>
+      <a href="./Menu.html">
+        <div
+          class="flex justify-between bg-gray-100 items-center my-5 py-2 px-5"
+        >
+          MENU
+          <img class="w-32 h-20" src="./IMG/menuGrid/2.jpg" alt="" />
+        </div>
+      </a>
+      <a href="./Deals.html">
+        <div
+          class="flex justify-between bg-gray-100 items-center my-5 py-2 px-5"
+        >
+          DEALS
+          <img class="w-32 h-20" src="./IMG/menuGrid/3.jpg" alt="" />
+        </div>
+      </a>
+      <div class="bg-gray-100 my-5 py-2 px-5">
+        <a class="block my-5" href="">Get Help</a>
+        <a class="block my-5" href="">Contact Us</a>
+        <a class="block my-5" href="">KFC Feedback</a>
+        <a class="block my-5" href="">Privacy Policy</a>
+      </div>
+    </div>
+
+    <header>
+      <nav
+        class="fixed top-0 w-full z-10 md:px-32 sm:px-16 px-8 sm:py-7 py-3 flex justify-between bg-white shadow-lg"
+      >
+        <button class="sm:hidden block text-2xl menu__btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="flex items-center gap-9">
+          <li>
+            <a href="#"
+              ><img
+                class="w-20 sm:ml-0 ml-8"
+                src="./IMG/logo.png"
+                alt="kfc logo"
+            /></a>
+          </li>
+          <li class="hidden sm:block hover:text-red-500"><a href="./Menu.html">Menu</a></li>
+          <li class="hidden sm:block hover:text-red-500"><a href="./Deals.html">Deals</a></li>
+        </ul>
+        <ul class="flex items-center sm:gap-4 gap-1">
+          <li class="hidden sm:block">
+            <a href="./signIn.html"><i class="fa-regular fa-circle-user"></i></a>
+          </li>
+          <li class="hidden sm:block"><a href="./signIn.html" class="">Sign in</a></li>
+          <li><button class="cartBtn">₹0</button></li>
+          <li>
+            <button class="cartBtn"
+              ><img class="w-8 cartBtn" src="./IMG/bucketlogo.png" alt="Bucket"
+            /></button>
+          </li>
+        </ul>
+      </nav>
+      <div class="sm:mt-24 mt-16 bg-gray-100">
+        <div class="flex justify-start gap-3">
+          <div class="bg-red-500 w-2 h-6 sm:ml-40 ml-5"></div>
+          <div class="bg-red-500 w-2 h-6"></div>
+          <div class="bg-red-500 w-2 h-6"></div>
+        </div>
+        <div class="py-6">
+          <h1 class="sm:text-4xl sm:ml-40 text-2xl ml-5">WELCOME TO KFC!</h1>
+        </div>
+      </div>
+    </header>
+    <main class="mx-auto sm:w-3/4 w-[90%] py-14">
+      <div class="flex">
+        <div class=""><h2 class="text-3xl">BROWSE CATEGORIES</h2></div>
+        <div class="w-[65%] mt-5 ml-5"><hr /></div>
+      </div>
+      <div class="grid grid-cols-8 mt-10 gap-4">
+        <div class="md:col-span-2 col-span-4 shadow-lg">
+          <div class="bg-gray-200">
+            <a href="./Menu.html">
+              <img class="" src="./IMG/mainGrid/1.jpg" alt="deal"
+            /></a>
+            <div class="h-14">
+              <a
+                class="inline-block w-full text-center font-bold py-3"
+                href="./Menu.html"
+                >EXCLUSIVE DEALS</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-4 shadow-lg">
+          <div class="bg-gray-200">
+            <a href="./Menu.html#class">
+              <img class="" src="./IMG/mainGrid/2.jpg" alt="deal"
+            /></a>
+            <div class="h-14">
+              <a
+                class="inline-block w-full text-center font-bold py-3"
+                href="./Menu.html#class"
+                >CHIZZA</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-4 shadow-lg">
+          <div class="bg-gray-200">
+            <a href="./Menu.html#chicken">
+              <img class="" src="./IMG/mainGrid/3.jpg" alt="deal"
+            /></a>
+            <div class="h-14">
+              <a
+                class="inline-block w-full text-center font-bold py-3"
+                href="./Menu.html#chicken"
+                >CHICKEN BUCKETS</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-4 shadow-lg">
+          <div class="bg-gray-200">
+            <a href="./Menu.html#newLaunch">
+              <img class="" src="./IMG/mainGrid/4.jpg" alt="deal"
+            /></a>
+            <div class="h-14">
+              <a
+                class="inline-block w-full text-center font-bold py-3"
+                href="./Menu.html#newLaunch"
+                >NEW LAUNCH</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="md:col-span-2 col-span-4 shadow-lg">
+          <div class="bg-gray-200">
+            <a href="./Menu.html#biriyani">
+              <img class="" src="./IMG/mainGrid/5.jpg" alt="deal"
+            /></a>
+            <div class="h-14">
+              <a
+                class="inline-block w-full text-center font-bold py-3"
+                href="./Menu.html#biriyani"
+                >BIRIYANI BUCKETS</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-4 shadow-lg">
+          <div class="bg-gray-200">
+            <a href="./Menu.html#boxMeals">
+              <img class="" src="./IMG/mainGrid/6.jpg" alt="deal"
+            /></a>
+            <div class="h-14">
+              <a
+                class="inline-block w-full text-center font-bold py-3"
+                href="./Menu.html#boxMeals"
+                >BOX MEALS</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-4 shadow-lg">
+          <div class="bg-gray-200">
+            <a href="./Menu.html#burgers">
+              <img class="" src="./IMG/mainGrid/7.jpg" alt="deal"
+            /></a>
+            <div class="h-14">
+              <a
+                class="inline-block w-full text-center font-bold py-3"
+                href="./Menu.html#burgers"
+                >BURGERS</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-2 col-span-4 shadow-lg">
+          <div class="bg-gray-200 h-full">
+            <a href="./Menu.html" class="inline-block w-full h-[70%] px-2">
+              <div
+                class="fingerFont lg:text-4xl text-2xl text-red-500 xl:py-8 lg:py-1 py-5"
+              >
+                <p>"its finger licking good"</p>
+              </div>
+            </a>
+            <div class="h-[30%]">
+              <a
+                class="inline-block w-full text-center font-bold py-3 text-xs lg:text-xl"
+                href="./Menu.html"
+                >VIEW ALL MENU <i class="fa-sharp fa-solid fa-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- slider section -->
+      <div class="sm:mt-24 mt-5">
+        <div class="flex justify-start gap-3">
+          <div class="bg-red-500 w-2 h-6 sm:ml-40 ml-5"></div>
+          <div class="bg-red-500 w-2 h-6"></div>
+          <div class="bg-red-500 w-2 h-6"></div>
+        </div>
+        <div class="slider relative h-[30rem] overflow-hidden sm:pl-36 pl-20">
+          <div class="slide absolute transition-transform duration-500">
+            <div class="lg:w-1/4 sm:w-1/2 w-3/4 rounded-2xl shadow-lg bg-white">
+              <img
+                class="rounded-t-2xl"
+                src="./IMG/homeGrid/3.jpg"
+                alt="Zinger"
+              />
+              <div class="px-3 py-3">
+                <p
+                  class="text-red-900 xl:text-3xl sm:text-2xl text-1xl font-bold"
+                >
+                  1 Pc free Chicken
+                </p>
+                <p class="line-clamp-2">
+                  1 Pc free Chicken Zinger on a cart value of 499 or above on
+                  first order. Only for registered users.
+                </p>
+                <div class="flex justify-between sm:px-8 px-4 mt-3">
+                  <button class="underline detailsView">View Details</button>
+                  <button
+                    class="border sm:px-5 px-3 py-2 rounded-3xl text-black hover:bg-black hover:text-white cartBtn"
+                  >
+                    Redeem
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide absolute transition-transform duration-500">
+            <div class="lg:w-1/4 sm:w-1/2 w-3/4 rounded-2xl shadow-lg bg-white">
+              <img
+                class="rounded-t-2xl"
+                src="./IMG/homeGrid/3.jpg"
+                alt="Zinger"
+              />
+              <div class="px-3 py-3">
+                <p
+                  class="text-red-900 xl:text-3xl sm:text-2xl text-1xl font-bold"
+                >
+                  1 Pc free Chicken
+                </p>
+                <p class="line-clamp-2">
+                  1 Pc free Chicken Zinger on a cart value of 499 or above on
+                  first order. Only for registered users.
+                </p>
+                <div class="flex justify-between sm:px-8 px-4 mt-3">
+                  <button class="underline">View Details</button>
+                  <button
+                    class="border sm:px-5 px-3 py-2 rounded-3xl text-black hover:bg-black hover:text-white"
+                  >
+                    Redeem
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide absolute transition-transform duration-500">
+            <div class="lg:w-1/4 sm:w-1/2 w-3/4 rounded-2xl shadow-lg bg-white">
+              <img
+                class="rounded-t-2xl"
+                src="./IMG/homeGrid/3.jpg"
+                alt="Zinger"
+              />
+              <div class="px-3 py-3">
+                <p
+                  class="text-red-900 xl:text-3xl sm:text-2xl text-1xl font-bold"
+                >
+                  1 Pc free Chicken
+                </p>
+                <p class="line-clamp-2">
+                  1 Pc free Chicken Zinger on a cart value of 499 or above on
+                  first order. Only for registered users.
+                </p>
+                <div class="flex justify-between sm:px-8 px-4 mt-3">
+                  <button class="underline">View Details</button>
+                  <button
+                    class="border sm:px-5 px-3 py-2 rounded-3xl text-black hover:bg-black hover:text-white"
+                  >
+                    Redeem
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide absolute transition-transform duration-500">
+            <div class="lg:w-1/4 sm:w-1/2 w-3/4 rounded-2xl shadow-lg bg-white">
+              <img
+                class="rounded-t-2xl"
+                src="./IMG/homeGrid/3.jpg"
+                alt="Zinger"
+              />
+              <div class="px-3 py-3">
+                <p
+                  class="text-red-900 xl:text-3xl sm:text-2xl text-1xl font-bold"
+                >
+                  1 Pc free Chicken
+                </p>
+                <p class="line-clamp-2">
+                  1 Pc free Chicken Zinger on a cart value of 499 or above on
+                  first order. Only for registered users.
+                </p>
+                <div class="flex justify-between sm:px-8 px-4 mt-3">
+                  <button class="underline">View Details</button>
+                  <button
+                    class="border sm:px-5 px-3 py-2 rounded-3xl text-black hover:bg-black hover:text-white"
+                  >
+                    Redeem
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide absolute transition-transform duration-500">
+            <div class="lg:w-1/4 sm:w-1/2 w-3/4 rounded-2xl shadow-lg bg-white">
+              <img
+                class="rounded-t-2xl"
+                src="./IMG/homeGrid/3.jpg"
+                alt="Zinger"
+              />
+              <div class="px-3 py-3">
+                <p
+                  class="text-red-900 xl:text-3xl sm:text-2xl text-1xl font-bold"
+                >
+                  1 Pc free Chicken
+                </p>
+                <p class="line-clamp-2">
+                  1 Pc free Chicken Zinger on a cart value of 499 or above on
+                  first order. Only for registered users.
+                </p>
+                <div class="flex justify-between sm:px-8 px-4 mt-3">
+                  <button class="underline">View Details</button>
+                  <button
+                    class="border sm:px-5 px-3 py-2 rounded-3xl text-black hover:bg-black hover:text-white"
+                  >
+                    Redeem
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide absolute transition-transform duration-500">
+            <div class="lg:w-1/4 sm:w-1/2 w-3/4 rounded-2xl shadow-lg bg-white">
+              <img
+                class="rounded-t-2xl"
+                src="./IMG/homeGrid/3.jpg"
+                alt="Zinger"
+              />
+              <div class="px-3 py-3">
+                <p
+                  class="text-red-900 xl:text-3xl sm:text-2xl text-1xl font-bold"
+                >
+                  1 Pc free Chicken
+                </p>
+                <p class="line-clamp-2">
+                  1 Pc free Chicken Zinger on a cart value of 499 or above on
+                  first order. Only for registered users.
+                </p>
+                <div class="flex justify-between sm:px-8 px-4 mt-3">
+                  <button class="underline">View Details</button>
+                  <button
+                    class="border sm:px-5 px-3 py-2 rounded-3xl text-black hover:bg-black hover:text-white"
+                  >
+                    Redeem
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide absolute transition-transform duration-500">
+            <div class="lg:w-1/4 sm:w-1/2 w-3/4 rounded-2xl shadow-lg bg-white">
+              <img
+                class="rounded-t-2xl"
+                src="./IMG/homeGrid/3.jpg"
+                alt="Zinger"
+              />
+              <div class="px-3 py-3">
+                <p
+                  class="text-red-900 xl:text-3xl sm:text-2xl text-1xl font-bold"
+                >
+                  1 Pc free Chicken
+                </p>
+                <p class="line-clamp-2">
+                  1 Pc free Chicken Zinger on a cart value of 499 or above on
+                  first order. Only for registered users.
+                </p>
+                <div class="flex justify-between sm:px-8 px-4 mt-3">
+                  <button class="underline">View Details</button>
+                  <button
+                    class="border sm:px-5 px-3 py-2 rounded-3xl text-black hover:bg-black hover:text-white"
+                  >
+                    Redeem
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide absolute transition-transform duration-500">
+            <div class="lg:w-1/4 sm:w-1/2 w-3/4 rounded-2xl shadow-lg bg-white">
+              <img
+                class="rounded-t-2xl"
+                src="./IMG/homeGrid/3.jpg"
+                alt="Zinger"
+              />
+              <div class="px-3 py-3">
+                <p
+                  class="text-red-900 xl:text-3xl sm:text-2xl text-1xl font-bold"
+                >
+                  1 Pc free Chicken
+                </p>
+                <p class="line-clamp-2">
+                  1 Pc free Chicken Zinger on a cart value of 499 or above on
+                  first order. Only for registered users.
+                </p>
+                <div class="flex justify-between sm:px-8 px-4 mt-3">
+                  <button class="underline">View Details</button>
+                  <button
+                    class="border sm:px-5 px-3 py-2 rounded-3xl text-black hover:bg-black hover:text-white"
+                  >
+                    Redeem
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="absolute btn leftBtn">
+            <i class="fa-solid fa-angle-left"></i>
+          </button>
+          <button class="absolute btn rightBtn">
+            <i class="fa-solid fa-angle-right"></i>
+          </button>
+          <div class="dots absolute"></div>
+        </div>
+      </div>
+      <div class="mx-auto w-1/2 flex justify-center pt-10">
+        <img
+          class="inline-block"
+          src="./IMG/homeGrid/kfc footer logo.png"
+          alt=""
+        />
+      </div>
+      <div class="relative px-3 py-1 mx-auto w-3/4 footer overflow-hidden">
+        <input
+          type="checkbox"
+          class="absolute top-0 inset-x-0 w-full h-8 opacity-0 z-10 cursor-pointer peer"
+        />
+        <div class="flex justify-between text-white">
+          <h4 class="text-2xl">KFC Food</h4>
+        </div>
+        <hr />
+        <div
+          class="absolute top-3 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="text-white transition-all duration-500 max-h-0 peer-checked:max-h-40"
+        >
+          <a class="w-full inline-block pl-10" href="">Menu</a><br />
+          <a class="w-full inline-block pl-10" href="">Order Lookup</a><br />
+
+          <a class="w-full inline-block pl-10" href="">Gift Card</a><br />
+
+          <a class="w-full inline-block pl-10" href="">Nutrition & Allergen</a
+          ><br />
+        </div>
+      </div>
+      <div class="relative px-3 py-1 mx-auto w-3/4 footer overflow-hidden">
+        <input
+          type="checkbox"
+          class="absolute top-0 inset-x-0 w-full h-8 opacity-0 z-10 cursor-pointer peer"
+        />
+        <div class="flex justify-between text-white">
+          <h4 class="text-2xl">Support</h4>
+        </div>
+        <hr />
+        <div
+          class="absolute top-3 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="text-white transition-all duration-500 max-h-0 peer-checked:max-h-40"
+        >
+          <a class="w-full inline-block pl-10" href="">Get Help</a><br />
+          <a class="w-full inline-block pl-10" href="">Contact us</a><br />
+
+          <a class="w-full inline-block pl-10" href="">KFC Feedback</a><br />
+
+          <a class="w-full inline-block pl-10" href="">Privacy policy</a><br />
+        </div>
+      </div>
+      <div class="relative px-3 py-1 mx-auto w-3/4 footer overflow-hidden">
+        <input
+          type="checkbox"
+          class="absolute top-0 inset-x-0 w-full h-8 opacity-0 z-10 cursor-pointer peer"
+        />
+        <div class="flex justify-between text-white">
+          <h4 class="text-2xl">Legal</h4>
+        </div>
+        <hr />
+        <div
+          class="absolute top-3 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="text-white transition-all duration-500 max-h-0 peer-checked:max-h-40"
+        >
+          <a class="w-full inline-block pl-10" href="">Terms & Conditions</a
+          ><br />
+          <a class="w-full inline-block pl-10" href="">Privacy policy</a><br />
+
+          <a class="w-full inline-block pl-10" href="">Disclaimer</a><br />
+
+          <a class="w-full inline-block pl-10" href="">Caution Notice</a><br />
+        </div>
+      </div>
+      <div class="relative px-3 py-1 mx-auto w-3/4 footer overflow-hidden">
+        <input
+          type="checkbox"
+          class="absolute top-0 inset-x-0 w-full h-8 opacity-0 z-10 cursor-pointer peer"
+        />
+        <div class="flex justify-between text-white">
+          <h4 class="text-2xl">KFC India</h4>
+        </div>
+        <hr />
+        <div
+          class="absolute top-3 right-3 text-white transition-transform duration-500 rotate-0 peer-checked:rotate-180"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="text-white transition-all duration-500 max-h-0 peer-checked:max-h-40"
+        >
+          <a class="w-full inline-block pl-10" href="">About KFC</a><br />
+          <a class="w-full inline-block pl-10" href="">KFC Care</a><br />
+
+          <a class="w-full inline-block pl-10" href="">Careers</a><br />
+
+          <a class="w-full inline-block pl-10" href="">Our Golden Past</a><br />
+        </div>
+      </div>
+      <div class="px-3 py-1 mx-auto w-3/4">
+        <a class="text-white inline-block w-full text-center mb-2" href=""
+          ><i class="fa-solid fa-location-dot text-red-600"></i> Find a KFC</a
+        >
+        <hr />
+      </div>
+      <div
+        class="px-3 py-3 mt-5 mx-auto w-3/4 flex justify-around gap-10 text-center flex-wrap"
+      >
+        <a
+          href="https://play.google.com/store/apps/details?id=com.yum.kfc"
+          class="inline-block sm:w-48 w-24 sm:h-14 sm:text-xl h-10 text-xs rounded-xl text-white border hover:bg-white hover:text-black"
+        >
+          <i class="fa-brands fa-android"></i><span> GET IT ON</span> <br />
+          <span>Google Play</span></a
+        >
+        <a
+          href="https://apps.apple.com/in/app/kfc-india/id915824379"
+          class="inline-block sm:w-48 w-24 sm:h-14 sm:text-xl h-10 text-xs rounded-xl text-white border hover:bg-white hover:text-black"
+          ><i class="fa-brands fa-apple"></i> <span> GET IT ON</span>
+          <br />
+          <span>App Store</span></a
+        >
+        <a href="https://www.instagram.com/kfcindia_official/">
+          <div
+            class="text-2xl shrink-0 border sm:w-14 sm:h-14 w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-white hover:text-black"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </a>
+        <a href="https://www.facebook.com/KFCIndia">
+          <div
+            class="text-2xl shrink-0 border sm:w-14 sm:h-14 w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-white hover:text-black"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+        </a>
+        <a href="https://twitter.com/KFC_India">
+          <div
+            class="text-2xl shrink-0 border sm:w-14 sm:h-14 w-10 h-10 rounded-full flex items-center justify-center text-white hover:bg-white hover:text-black"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </a>
+      </div>
+      <div class="text-white text-center py-10">
+        Copyright © KFC Corporation 2021 All Rights Reserved
+      </div>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
+</html>
